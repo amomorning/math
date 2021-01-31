@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     89777,       1831]
-NotebookOptionsPosition[     82106,       1690]
-NotebookOutlinePosition[     82478,       1706]
-CellTagsIndexPosition[     82435,       1703]
+NotebookDataLength[     91771,       1890]
+NotebookOptionsPosition[     83645,       1741]
+NotebookOutlinePosition[     84017,       1757]
+CellTagsIndexPosition[     83974,       1754]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1685,6 +1685,57 @@ Cell[BoxData[
  CellChangeTimes->{{3.8206388821808233`*^9, 3.820638888101972*^9}},
  CellLabel->"Out[72]=",ExpressionUUID->"bbbd3923-c893-4e34-a3c5-2fba64d2bf5c"]
 }, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Diagonal Matrics", "Subsubsection",
+ CellChangeTimes->{{3.821096622566649*^9, 
+  3.8210966275544443`*^9}},ExpressionUUID->"6da6e353-1a10-465d-9c84-\
+94fdc49547e0"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"DiagonalMatrix", "[", 
+   RowBox[{"{", 
+    RowBox[{"8", ",", "2", ",", "5"}], "}"}], "]"}], "//", 
+  "MatrixForm"}]], "Input",
+ CellChangeTimes->{{3.821096742576089*^9, 3.8210967772234335`*^9}, {
+  3.8210968315541487`*^9, 3.821096835205467*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"98fdb44a-0922-4e03-a5f5-bebe8c1398aa"],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {"8", "0", "0"},
+     {"0", "2", "0"},
+     {"0", "0", "5"}
+    },
+    GridBoxAlignment->{"Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.7]}, 
+        Offset[0.27999999999999997`]}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}}], "\[NoBreak]", ")"}],
+  Function[BoxForm`e$, 
+   MatrixForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{3.8210967588992662`*^9, 3.8210968358361406`*^9},
+ CellLabel->
+  "Out[3]//MatrixForm=",ExpressionUUID->"d4939da0-db21-45d7-b802-\
+512dc67a8a83"]
+}, Open  ]],
+
+Cell["\<\
+Proposition: Suppose T has an upper-triangular matrix with respect t some \
+basis of V. Then the eigen\
+\>", "Text",
+ CellChangeTimes->{{3.8210970794005685`*^9, 
+  3.821097118609851*^9}},ExpressionUUID->"331e0bce-db88-4819-8d08-\
+b5025d8fcb39"]
 }, Open  ]]
 }, Open  ]]
 },
@@ -1831,6 +1882,14 @@ Cell[CellGroupData[{
 Cell[81520, 1672, 283, 6, 51, "Input",ExpressionUUID->"16c07356-01c0-437b-8928-cb56f38f3f0a"],
 Cell[81806, 1680, 260, 5, 36, "Output",ExpressionUUID->"bbbd3923-c893-4e34-a3c5-2fba64d2bf5c"]
 }, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[82115, 1691, 169, 3, 40, "Subsubsection",ExpressionUUID->"6da6e353-1a10-465d-9c84-94fdc49547e0"],
+Cell[CellGroupData[{
+Cell[82309, 1698, 359, 8, 51, "Input",ExpressionUUID->"98fdb44a-0922-4e03-a5f5-bebe8c1398aa"],
+Cell[82671, 1708, 677, 20, 88, "Output",ExpressionUUID->"d4939da0-db21-45d7-b802-512dc67a8a83"]
+}, Open  ]],
+Cell[83363, 1731, 254, 6, 39, "Text",ExpressionUUID->"331e0bce-db88-4819-8d08-b5025d8fcb39"]
 }, Open  ]]
 }, Open  ]]
 }
